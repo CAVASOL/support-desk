@@ -9,7 +9,7 @@ import BackButton from '../components/BackButton'
 
 function NewTicket() {
   const { user } = useSelector((state) => state.auth)
-  const { isLoading, isError, isSuccess, message } = useSelector((state) => state.ticket)
+  const { isLoading, isError, isSuccess, message } = useSelector((state) => state.tickets)
 
   const [name] = useState(user.name)
   const [email] = useState(user.email)
@@ -70,9 +70,9 @@ function NewTicket() {
               value={product}
               onChange={(e) => setProduct(e.target.value)}
             >
-              <option value='All That Cocktail'>All That Cocktail</option>
-              <option value='Github Finder'>Github Finder</option>
-              <option value='Rocket Store'>Rocket Store</option>
+              <option value='iPad'>iPad</option>
+              <option value='iPod'>iPod</option>
+              <option value='iPhone'>iPhone</option>
             </select>
           </dlv>
           <dlv className='form-group'>

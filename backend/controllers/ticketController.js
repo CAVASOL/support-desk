@@ -92,7 +92,7 @@ const updateTicket = asyncHandler(async (req, res) => {
 
   if (ticket.user.toString() !== req.user.id) {
     res.status(401)
-    throw new Error('Not Authrozed')
+    throw new Error('Not Authorized')
   }
 
   const updatedTicket = await Ticket.findByIdAndUpdate(req.params.id, req.body, { new: true })
@@ -120,7 +120,7 @@ const deleteTicket = asyncHandler(async (req, res) => {
 
   if (ticket.user.toString() !== req.user.id) {
     res.status(401)
-    throw new Error('Not Authrozed')
+    throw new Error('Not Authorized')
   }
 
   await ticket.remove()
