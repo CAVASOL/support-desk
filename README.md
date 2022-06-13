@@ -1,6 +1,6 @@
 # Support Desk
 
-React app as Support desk and Ticketing system with MERN-Stack
+React app as Support desk and Ticketing system with MERN Stack
 
 ## Usage
 
