@@ -62,7 +62,7 @@ function NewTicket() {
         </div>
 
         <form onSubmit={onSubmit}>
-          <dlv className='form-group'>
+          <div className='form-group'>
             <label htmlFor='product'>Product</label>
             <select
               name='product'
@@ -74,8 +74,8 @@ function NewTicket() {
               <option value='iPod'>iPod</option>
               <option value='iPhone'>iPhone</option>
             </select>
-          </dlv>
-          <dlv className='form-group'>
+          </div>
+          <div className='form-group'>
             <label htmlFor='description'>Description of the issue</label>
             <textarea
               name='description'
@@ -86,10 +86,10 @@ function NewTicket() {
               onChange={(e) => setDescription(e.target.value)}
             >
             </textarea>
-          </dlv>
-          <dlv className='form-group'>
+          </div>
+          <div className='form-group'>
             <button className='btn btn-block'>Submit</button>
-          </dlv>
+          </div>
         </form>
       </section>
     </>
