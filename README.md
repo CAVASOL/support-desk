@@ -1,5 +1,7 @@
 # Support Desk
 
+<img align="center" src="./supportdesk.png" width="800px" />
+
 React app as Support desk and Ticketing system with MERN Stack
 
 ## Usage
