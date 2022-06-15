@@ -21,6 +21,4 @@ npm install
 
 ### Run Server
 
-I am not sure how long this will be up tho
-
-dassistance.herokuapp.com/
+I am not sure how long this will be up tho, [Click for demo.](https://dassistance.herokuapp.com/)
