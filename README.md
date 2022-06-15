@@ -21,6 +21,6 @@ npm install
 
 ### Run Server
 
-```
-npm run server
-```
+I am not sure how long this will be up tho
+
+dassistance.herokuapp.com/
