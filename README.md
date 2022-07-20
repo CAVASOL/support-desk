@@ -1,8 +1,8 @@
 # Support Desk
 
-<img align="center" src="./supportdesk.png" width="800px" />
-
 React app as Support desk and Ticketing system with MERN Stack
+
+<img align="center" src="./supportdesk.png" width="800px" />
 
 ## Usage
 
@@ -21,6 +21,4 @@ npm install
 
 ### Run Server
 
-```
-npm run server
-```
+I am not sure how long this will be up tho, [Click for demo.](https://dassistance.herokuapp.com/)
